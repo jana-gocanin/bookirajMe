@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="slike/favicon.png">
+        
+        <title>BookirajMe &mdash; Aplikacija za pronalazenje jeftinih putovanja</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <img src="slike/logo_transparent.png" alt="logo" class="logo">
+
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search hotels">
+                    <button class="search__button">
+                        <!-- <svg class="search__icon"> -->
+                            <!-- <use xlink:href="slike/sprite.svg#icon-magnifying-glass"></use> -->
+                            <!-- <use xlink:href="slike/sprite#icon-magnifying-glass"></use> -->
+                            <img src="slike/pngtree-black-simple-magnifying-glass-png-image_1313804__1_-removebg-preview.png" class="search__icon" alt="lupa">
+                        <!-- </svg> -->
+                        <!-- Pretrazi -->
+                    </button>
+                </form>
+
+                <nav class="user-nav">
+                    <div class="user-nav__icon-box">
+                        <!-- <svg class="user-nav__icon">
+                            <use xlink:href="slike/sprite#icon-bookmark"></use>
+                        </svg> -->
+                        <img src="slike/Bookmark.png" class="user-nav__icon" alt="bookmark">
+                        <span class="user-nav__notification">7</span>
+                    </div>
+                    <div class="user-nav__icon-box">
+                        <!-- <svg class="user-nav__icon">
+                            <use xlink:href="slike/sprite#icon-chat"></use>
+                        </svg> -->
+                        <img src="slike/84-847861_conversation-icon-png-grey-chat-icon-png-transparent-removebg-preview.png" class="user-nav__icon" alt="chat">
+                        <span class="user-nav__notification">13</span>
+                    </div>
+                    <div class="user-nav__user">
+                        <img src="slike/user.jpg" alt="User photo" class="user-nav__user-photo">
+                        <span class="user-nav__user-name">Mirka</span>
+                    </div>
+                </nav>
+            </header>
+
+
+            <div class="content">
+                <nav class="sidebar">
+                    <ul class="side-nav">
+                        <li class="side-nav__item side-nav__item--active">
+                            <a href="index.html" class="side-nav__link">
+                                <!-- <svg class="side-nav__icon">
+                                    <use xlink:href="slike/sprite.svg#icon-home"></use>
+                                </svg> -->
+                                <img src="slike/white-home-icon-no-background-11563079642uwh6064mft-removebg-preview.png" class="side-nav__icon" alt="home page">
+                                <span>Hoteli</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="letovi.html" class="side-nav__link">
+                                <!-- <svg class="side-nav__icon">
+                                    <use xlink:href="slike/sprite.svg#icon-aircraft-take-off"></use>
+                                </svg> -->
+                                <img src="slike/128-1282207_airplane-silhouette-clip-airplane-icon-png-download-removebg-preview.png"  class="side-nav__icon" alt="avion">
+                                <span>Letovi</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <!-- <svg class="side-nav__icon">
+                                    <use xlink:href="slike/sprite.svg#icon-key"></use>
+                                </svg> -->
+                                <img src="slike/2613466-middle-removebg-preview.png"  class="side-nav__icon" alt="kljuc">
+                                <span>Rent a car</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <!-- <svg class="side-nav__icon">
+                                    <use xlink:href="slike/sprite.svg#icon-map"></use>
+                                </svg> -->
+                                <img src="slike/map.png" class="side-nav__icon" alt="mapa">
+                                <span>Kontakt</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="legal">
+                        &copy; 2021 by najbolji tim za epos. All rights reserved.
+                    </div>
+                </nav>
+
+                <div class="okvir">
+                    <form>
+                        <div class="forma">
+                        
+                        <h1>Odaberite let koji Vam odgovara:</h1><br>
+                        <label for="polazak">Mesto polaska:</label><br>
+                        <input type="text" id="polazak" name="polazak"><br><br>
+                        <label for="destinacija">Zeljenja destinacija:</label><br>
+                        <input type="text" id="destinacija" name="destinacija"><br><br>
+                        <label for="datum">Datum polaska:</label><br>
+                        <input type="date" id="datum" name="datum"><br><br>
+                        <label for="broj-putnika">Broj putnika:</label>
+                        <input type="number" id="broj-putnika" name="broj-putnika" min="1" max="11"><br><br>
+                        <input type="submit" class="btn-inline"><br>
+                        <input type="reset" class="btn-inline">
+                    </div>
+                    </form>
+                    <div class="slika">
+                        <img src="slike/Air-stewardess.jpg" class="slika__stjuardesa" alt="stjuardesa">
+                    </div>
+                
+                </div>
+
+            </div>
+        </div>
+
+        <script src="javascript/myscript.js"></script>
+</body>
+</html>

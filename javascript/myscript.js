@@ -1,5 +1,5 @@
 function showAlert() {
-    var myText = "Rezervisali ste hotel, cestitamo!";
+    var myText = "Rezervisali ste hotel, čestitamo!";
     alert (myText);
 }
 
@@ -10,7 +10,7 @@ function nemaKom(){
 
 function check(){
     const x = document.forms["myform"];
-    let text = "Izabrali ste sledeci let (mesto polaska, mesto sletanja, datum, broj putnika): <br>";
+    let text = "Izabrali ste sledeći let (mesto polaska, mesto sletanja, datum, broj putnika): <br>";
     for (let i = 0; i < x.length ;i++) {
         text += x.elements[i].value + "<br>";
     }

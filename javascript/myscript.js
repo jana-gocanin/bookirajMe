@@ -18,3 +18,17 @@ function check(){
 function obrisi(){
     document.getElementById('f1').innerHTML=" ";
 }
+
+const x = document.getElementById("demo1");
+function getLocation() {
+if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+} else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+}
+}
+
+function showPosition(position) {
+x.innerHTML = "Latitude: " + position.coords.latitude +
+"<br>Longitude: " + position.coords.longitude;
+}

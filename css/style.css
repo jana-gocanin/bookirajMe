@@ -637,11 +637,14 @@ h1{
 }
 
 .reklama{
+    padding: 2rem;
+    font-family: inherit;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(slike/);
+    background-color: #333;
+    color: #d1c1c1;
 }
 
 /* media queries za responzivnost */

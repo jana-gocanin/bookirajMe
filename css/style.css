@@ -636,6 +636,14 @@ h1{
     border-top: 1px solid #5e052a41;
 }
 
+.reklama{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(slike/);
+}
+
 /* media queries za responzivnost */
 /* najveci ekran */
 @media only screen and (max-width: 75em) {

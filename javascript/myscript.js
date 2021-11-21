@@ -3,9 +3,14 @@ function showAlert() {
     alert (myText);
 }
 
+function nemaKom(){
+    var nema = "Nema više komentara";
+    alert(nema);
+}
+
 function check(){
     const x = document.forms["myform"];
-    let text = "Izabrali ste sledeci let: <br>";
+    let text = "Izabrali ste sledeci let (mesto polaska, mesto sletanja, datum, broj putnika): <br>";
     for (let i = 0; i < x.length ;i++) {
         text += x.elements[i].value + "<br>";
     }

@@ -30,7 +30,8 @@ body {
 }
 
 .logo {
-    height: 6.25rem;
+    height: 15.25rem;
+    width: 20rem;
     margin-left: 2rem;
 }
 
@@ -312,7 +313,7 @@ body {
     border: none;
     color: #FF3366;
     font-size: inherit;
-    border-bottom: 1px solid currentColor;
+    border-bottom: 1px solid #FF3366;
     padding-bottom: 2px;
     display: inline-block;
     background-color: transparent;
@@ -633,8 +634,8 @@ h1{
 }
 
 #dat{
-    border-bottom: 1px solid #5e052a41;
-    border-top: 1px solid #5e052a41;
+    /* border-bottom: 1px dotted #5e052a41; */
+    /* border-top: 1px solid #5e052a41; */
     font-size: 1.4em;
 }
 
@@ -651,6 +652,11 @@ h1{
 
 label{
     font-size: 1.3em;
+}
+
+#f1{
+    border: 1px solid #5e052a41;
+    margin-top: 1em;
 }
 
 /* media queries za responzivnost */
@@ -759,6 +765,14 @@ label{
     }
     #dat{
         font-size: 1.3em;
+    }
+    #f1{
+        font-size: 1.2em;
+    }
+    .logo{
+        width: 7rem;
+        height: auto;
+        margin-left: 1rem;
     }
 }
 

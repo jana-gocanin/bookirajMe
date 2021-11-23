@@ -73,6 +73,41 @@
                         &copy; 2021 by najbolji tim za epos. All rights reserved.
                     </div>
                 </nav>
+                
+                <div class="okvir">
+                    <div class="forma">
+                        <form id="myform">
+                            
+                            
+                            <h1>Napravite svoj profil:</h1><br>
+                            <label for="polazak">Mesto polaska:</label><br>
+                            <input type="text" id="polazak" name="polazak" required><br><br>
+                            <label for="destinacija">Željenja destinacija:</label><br>
+                            <input type="text" id="destinacija" name="destinacija" required><br><br>
+                            <label for="datum">Datum polaska:</label><br>
+                            <input type="date" id="datum" name="datum"><br><br>
+                            <label for="broj-putnika">Broj putnika:</label>
+                            <input type="number" id="broj-putnika" name="broj-putnika" min="1" max="11"><br><br>
+                            <input type="submit" class="btn-inline" onclick="check(); return false"><br><br>
+                            <input type="reset" class="btn-inline" onclick="obrisi()">
+                        
+                        </form>
+                        <p></p>
+                        <p id="f1"></p>
+                        <br>
+                        <p id="dat">Proverite datum i lokaciju klikom na dugme!</p><br>
+                        <button class="btn-inline" onclick="document.getElementById('demo').innerHTML=Date()">Današnji datum</button>
+                        <br><br>
+                        <p id="demo"></p>
+                        <button class="btn-inline" onclick="getLocation()">Proveri svoju lokaciju</button>
+                        <p id="demo1"></p>
+                    </div>
+                        <div class="slika">
+                            <img src="" class="slika__stjuardesa" alt="stjuardesa">
+                        </div>
+                    
+                    </div>
+                </div>
 
             </div>
         </div>

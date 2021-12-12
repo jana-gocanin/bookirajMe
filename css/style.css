@@ -848,15 +848,17 @@ label{
     }
 .vrste{
     background-image: linear-gradient(to right top, #deea6e, #eadc6a, #f1cf6b, #f5c26e, #f6b674, #faab75, #fca078, #fd957d, #ff8684, #ff7690, #ff69a1, #fb5fb6);
-    box-shadow: 0 2rem 5rem rgba(0,0,0,.06);;
+    box-shadow: 0 2rem 5rem rgba(0,0,0,.15);;
     padding: 3rem;
     flex: 0 0 5%;
     margin-right: 0rem;
     color: rgba(15, 15, 15, 0.89);
     position:relative;
+    border-radius: 1%;
+    box-shadow: ;
     }
     h3{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .dugme{
         font-size: 1.5rem;

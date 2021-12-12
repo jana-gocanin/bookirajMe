@@ -777,6 +777,14 @@ label{
         height: auto;
         margin-left: 1rem;
     }
+    .vrste{
+        width:90%;
+        font-size: 1em;
+    }
+    .rslides img{
+        display: none !important;
+    }
+    
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -823,6 +831,7 @@ label{
     /* width: 100%; */
     border: 0;
     border-radius: 30%;
+    margin-top: 5rem;
     }
 /* Rent a car*/
     .okvir2{
@@ -843,8 +852,11 @@ label{
     padding: 3rem;
     flex: 0 0 5%;
     margin-right: 0rem;
-    color: black;
+    color: rgba(15, 15, 15, 0.89);
     position:relative;
+    }
+    h3{
+        font-size: 3rem;
     }
     .dugme{
         font-size: 1.5rem;
@@ -857,6 +869,7 @@ label{
         
         overflow: hidden;
         cursor: pointer;
+        margin-top: 3rem;
         
     }
     

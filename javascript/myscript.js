@@ -43,3 +43,7 @@ x.innerHTML = "Latitude: " + position.coords.latitude +
   $(document).ready(function() {
     $(".rslides").responsiveSlides();
   });
+  function showAlert2(){
+    var myText = "Izabrali ste vozilo!";
+    alert (myText);
+  }

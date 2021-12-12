@@ -607,12 +607,14 @@ body {
     font-size: 1.4rem;
     width: 100%;
     display: flex;
+   
     padding: 4.5rem;
     background-color: #faf9f9;
     border-bottom: 1px solid #f4f2f2;
     
     justify-content: space-around;
     align-items: center;
+
     
 }
 
@@ -822,3 +824,61 @@ label{
     border: 0;
     border-radius: 30%;
     }
+/* Rent a car*/
+    .okvir2{
+        font-size: 1.4rem;
+        width: 100%;
+        display: flex;
+       flex-direction: column;
+        padding: 4.5rem;
+        background-color: #faf9f9;
+        border-bottom: 1px solid #f4f2f2;
+        
+        justify-content: space-around;
+        align-items: center;
+    }
+.vrste{
+    background-image: linear-gradient(to right top, #deea6e, #eadc6a, #f1cf6b, #f5c26e, #f6b674, #faab75, #fca078, #fd957d, #ff8684, #ff7690, #ff69a1, #fb5fb6);
+    box-shadow: 0 2rem 5rem rgba(0,0,0,.06);;
+    padding: 3rem;
+    flex: 0 0 5%;
+    margin-right: 0rem;
+    color: black;
+    position:relative;
+    }
+    .dugme{
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        border-radius: 100px;
+        border: none;
+        background-image: linear-gradient(to right, #FF3366, #BA265D);
+        color: #fff;
+        
+        overflow: hidden;
+        cursor: pointer;
+        
+    }
+    
+    .dugme > *{
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+            transition: all .2s;
+    }
+    
+    .dugme_poruka{
+        padding: 2rem 7.5rem;
+    }
+    
+    
+    .dugme:hover{
+        background-image: linear-gradient(to left, #FF3366, #BA265D);
+    }
+    
+    
+    .dugme:focus{
+        outline: none;
+        animation: pulsate 1s infinite;
+    }
+    

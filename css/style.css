@@ -855,7 +855,7 @@ label{
     color: rgba(15, 15, 15, 0.89);
     position:relative;
     border-radius: 1%;
-    box-shadow: ;
+    
     }
     h3{
         font-size: 2rem;
@@ -868,7 +868,7 @@ label{
         border: none;
         background-image: linear-gradient(to right, #FF3366, #BA265D);
         color: #fff;
-        
+       
         overflow: hidden;
         cursor: pointer;
         margin-top: 3rem;
@@ -877,8 +877,9 @@ label{
     
     .dugme > *{
             display: inline-block;
-            height: 100%;
-            width: 100%;
+           
+            margin-left: 3px;
+          
             transition: all .2s;
     }
     
@@ -896,4 +897,20 @@ label{
         outline: none;
         animation: pulsate 1s infinite;
     }
+
+    .kontakt {
+        background-color: #fff;
+        box-shadow:  0 2rem 5rem rgba(0,0,0,.06);
+        padding: 3rem;
+        margin-bottom: 3.5rem;
+        position: relative;
+        overflow: hidden;
+    
+    }
+    
+.container1{
+    color:#eb2f64;
+}
+
+    
     

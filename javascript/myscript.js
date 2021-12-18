@@ -43,7 +43,42 @@ x.innerHTML = "Latitude: " + position.coords.latitude +
   $(document).ready(function() {
     $(".rslides").responsiveSlides();
   });
+
   function showAlert2(){
     var myText = "Izabrali ste vozilo!";
     alert (myText);
   }
+ 
+    function validate1() {
+        if (document.getElementById('vehicle1').checked) {
+            alert("Izabrali ste Ekonomsku klasu");
+        }
+    }
+    function validate2(){
+     if(document.getElementById('vehicle2').checked){
+        alert("Izabrali ste Luksuznu klasu");
+    
+    } 
+}
+function validate3(){
+
+ if(document.getElementById('vehicle3').checked){
+    alert("Izabrali ste Mini");
+}
+}
+function validate4(){
+
+ if(document.getElementById('vehicle4').checked){
+    alert("Izabrali ste Kombi");
+
+}
+} 
+function validate5(){
+ if(document.getElementById('vehicle5').checked){
+alert("Izabrali ste Motor");
+}
+} 
+        
+        
+    
+  

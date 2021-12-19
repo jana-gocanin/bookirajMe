@@ -911,6 +911,43 @@ label{
 .container1{
     color:#eb2f64;
 }
+.registerbtn{
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-radius: 100px;
+    border: none;
+    background-image: linear-gradient(to right, #FF3366, #BA265D);
+    color: #fff;
+  
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 3rem;
+    
+}
+
+.registerbtn > *{
+        display: inline-block;
+       
+        margin-left: 3px;
+      
+        transition: all .2s;
+}
+
+.registerbtn_poruka{
+    padding: 2rem 7.5rem;
+}
+
+.registerbtn:hover{
+    background-image: linear-gradient(to left, #FF3366, #BA265D);
+}
+
+
+.registerbtn:focus{
+    outline: none;
+    animation: pulsate 1s infinite;
+}
+
 
     
     

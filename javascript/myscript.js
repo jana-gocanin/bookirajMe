@@ -78,6 +78,8 @@ function validate5(){
 alert("Izabrali ste Motor");
 }
 } 
+
+
         
         
     

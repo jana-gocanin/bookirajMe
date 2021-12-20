@@ -79,6 +79,17 @@ alert("Izabrali ste Motor");
 }
 } 
 
+function check2(){
+    const x = document.forms["kontakt_forma"];
+    let text = "Prijavili ste se na nalog  (email) sa lozinkom (lozinka): <br>";
+    for (let i = 0; i < x.length ;i++) {
+        text += x.elements[i].value + "<br>";
+    }
+    if(confirm("Da li je to Vaš nalog?")==1){
+        alert(text);
+    }
+    
+}
 
         
         

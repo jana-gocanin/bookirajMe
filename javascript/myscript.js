@@ -81,7 +81,7 @@ alert("Izabrali ste Motor");
 
 function check2(){
     const x = document.forms["kontakt_forma"];
-    let text = "Prijavili ste se na nalog  (email) sa lozinkom (lozinka): <br>";
+    let text = "Prijavili ste se na nalog  (email) sa lozinkom (psw): <br>";
     for (let i = 0; i < x.length ;i++) {
         text += x.elements[i].value + "<br>";
     }
@@ -91,7 +91,10 @@ function check2(){
     
 }
 
-        
+function resetField(fieldId) {
+    var field = document.getElementById(fieldId);
+    alert(field);           // object
+    alert(field.value);   
         
     
   

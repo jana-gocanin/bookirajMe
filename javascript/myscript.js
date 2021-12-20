@@ -81,8 +81,8 @@ alert("Izabrali ste Motor");
 
 function check2(){
     const x = document.forms["kontakt_forma"];
-    let text = "Prijavili ste se na nalog  (email) sa lozinkom (psw): \n ";
-    for (let i = 0; i < x.length ;i++) {
+    let text = "Prijavili ste se na nalog  (email) sa lozinkom (password): \n ";
+    for (let i = 0; i < x.length-1 ;i++) {
         text += x.elements[i].value + '\n';
     }
     if(confirm("Da li je to Vaš nalog?")==1){

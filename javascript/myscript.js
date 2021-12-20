@@ -82,7 +82,7 @@ alert("Izabrali ste Motor");
 function check2(){
     const x = document.forms["kontakt_forma"];
     let text = "Napravili ste nalog  sa email-om i lozinkom: \n ";
-    for (let i = 0; i < x.length-1 ;i++) {
+    for (let i = 0; i < x.length-2 ;i++) {
         text += x.elements[i].value + '\n';
     }
     if(confirm("Da li ste uneli ispravan email i lozinku?")==1){

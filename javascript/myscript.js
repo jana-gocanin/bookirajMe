@@ -81,11 +81,11 @@ alert("Izabrali ste Motor");
 
 function check2(){
     const x = document.forms["kontakt_forma"];
-    let text = "Prijavili ste se na nalog  (email) sa lozinkom (password): \n ";
+    let text = "Napravili ste nalog  sa email-om i lozinkom: \n ";
     for (let i = 0; i < x.length-1 ;i++) {
         text += x.elements[i].value + '\n';
     }
-    if(confirm("Da li je to Vaš nalog?")==1){
+    if(confirm("Da li ste uneli ispravan email i lozinku?")==1){
         alert(text);
     }
     

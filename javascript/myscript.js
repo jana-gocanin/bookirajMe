@@ -89,7 +89,7 @@ function check2(){
         if(x.elements[1].value == x.elements[2].value){
         alert(text);
         } else{
-            alert("Lozinke se ne poklapaju")
+            alert("Lozinke se ne poklapaju, probajte ponovo.")
         }
     }
     
@@ -99,8 +99,8 @@ function check3(){
     
     let text =document.getElementById("comment").value ;
 
-
-    document.getElementById("com").innerHTML = text;
-    
+    if(text != ""){
+        document.getElementById("com").innerHTML = "Vaš komentar:<br>" + text;
+    }
     
 }

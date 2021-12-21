@@ -86,7 +86,11 @@ function check2(){
         text += x.elements[i].value + '\n';
     }
     if(confirm("Da li ste uneli ispravan email i lozinku?")==1){
+        if(x.elements[1].value == x.elements[2].value){
         alert(text);
+        } else{
+            alert("Lozinke se ne poklapaju")
+        }
     }
     
 }
@@ -94,14 +98,9 @@ function check2(){
 function check3(){
     
     let text =document.getElementById("comment").value ;
-   
 
- document.getElementById("com").innerHTML = text;
+
+    document.getElementById("com").innerHTML = text;
     
     
 }
-
-  
-        
-    
-  

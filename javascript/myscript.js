@@ -15,7 +15,11 @@ function check(){
         text += x.elements[i].value + "<br>";
     }
     if(confirm("Da li je to let koji zelite?")==1){
+        if(x.elements[0].value!= "" && x.elements[1].value != ""){
         document.getElementById("f1").innerHTML = text;
+        } else{
+            document.getElementById("f1").innerHTML = "Morate uneti mesto polaska i zeljenu destinaciju.";
+        }
     }
     
 }

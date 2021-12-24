@@ -992,4 +992,7 @@ label{
     transform: translateY(4px);
   }
 
+  #com{
+      font-size: 2rem;
+  }
   
